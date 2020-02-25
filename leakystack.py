@@ -120,4 +120,4 @@ class LeakyStack:
         if self.is_empty():  # If the stack is empty, then:
             raise EmptyStack("Stack is empty")  # raise an EmptyStack error
         else:  # or if it is not empty, then:
-            return self._list[self._start]  # return the first value in the stack.
+            return self._list[self._end]  # return the top item in the stack.
